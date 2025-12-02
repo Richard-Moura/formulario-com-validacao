@@ -1,0 +1,79 @@
+.titulo-secao {
+   text-align: center;
+}
+
+.contato {
+    background-color: #F4F4FF;
+    padding: 60px 20px;
+}
+
+.contato-form {
+    max-width: 500px;
+    margin: 40px auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.8);
+    border-left: 4px solid #6C63FF;
+}
+
+.campo {
+    margin-bottom: 18px;
+    display: flex;
+    flex-direction: column;
+}
+
+.campo label {
+    font-weight: 600;
+    margin-bottom: 6px;
+    color: #4F46E5;
+}
+
+.campo input,
+.campo textarea {
+    padding: 12px;
+    border: 1px solid #D1D1E4;
+    border-radius: 8px;
+    font-size: 15px;
+    background-color: #FAFAFF;
+    color: #333;
+}
+
+.campo input:focus,
+.campo textarea:focus {
+    border-color: #6C63FF;
+    box-shadow: 0 0 8px rgba( 108, 99, 255, 0.35);
+    background-color: #ffffff;
+}
+
+.campo small.erro {
+    color: #E63946;
+    margin-top: 4px;
+    font-size: 13px;
+    visibility: hidden;
+}
+
+.contato-from button {
+    width: 100%;
+    background-color: #6C63FF;
+    color: #fff;
+    border: none;
+    padding: 14px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2 ease;
+    margin-top: 10px;
+}
+
+.contato-from button:hover {
+    background-color: #4F46E5;
+}
+
+.sucesso {
+    text-align: center;
+    margin-top: 15px;
+    color: #00B894;
+    font-weight: 600;
+    font-size: 15px;
+}
